@@ -1,0 +1,76 @@
+.Main {
+  background: #eee;
+}
+
+.Main .banner-slider {
+  width: 100%;
+  height: 150px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.Main .banner-slider .slider-pager-page i {
+  font-size: 10px;
+}
+
+.Main .banner-slider .slider-pager-page.active {
+  color: #ff6600;
+}
+
+.Main .banner-slider .slider-pager {
+  bottom: 10px;
+}
+
+.Main .banner-slider img {
+  width: 100%;
+  height: 100%;
+}
+
+.Main .main-search label i {
+  font-size: 24px;
+}
+
+.Main .main-search input {
+  width: 100%;
+}
+
+.Main .main-search button {
+  background: #ff6600;
+  padding: 0 15px;
+}
+
+.Main .recm-item {
+  width: 150px;
+}
+
+.panel {
+  background: #fff;
+  margin-top: 5px;
+}
+
+.panel .panel-top {
+  padding: 5px;
+}
+
+.panel .panel-top > div {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.inline-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scrollx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+}
+/*# sourceMappingURL=Main.css.map */
